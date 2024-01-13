@@ -1,5 +1,6 @@
 
 
+
 from typing import List
 
 
@@ -22,7 +23,6 @@ class Solution:
                 i//=factors[i]
             ans+=sum(factor.values())
         return ans
-
 
 
 
