@@ -1,8 +1,8 @@
 #User function Template for python3
-
+import itertools
 class Solution:
     def permutation(self,s):
-        def perm(s,ds,ans,freq):
+        '''def perm(s,ds,ans,freq):
             if len(ds)==len(s):
                 f="".join(ds)
                 res.append(f)
@@ -20,8 +20,13 @@ class Solution:
         freq=[0]*len(s)
         ans=[]
         perm(s,ds,ans,freq)
-        return sorted(res)
-        
+        return sorted(res)'''
+        res=[]
+        p=list(itertools.permutations(s))
+        p.sort()
+        for i in p:
+            res.append("".join(i))
+        return res
                     
             
         
