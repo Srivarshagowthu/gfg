@@ -1,0 +1,22 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=union-of-two-sorted-arrays">Union of Two Sorted Arrays</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: auto;"><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given two sorted arrays of size <strong style="user-select: auto;">n</strong> and <strong style="user-select: auto;">m</strong> respectively, find their union.&nbsp;</span><span style="font-size: 18px; user-select: auto;">The Union of two arrays can be defined as the&nbsp;</span><strong style="font-size: 18px; user-select: auto;">common&nbsp;</strong><span style="font-size: 18px; user-select: auto;">and&nbsp;</span><strong style="font-size: 18px; user-select: auto;">distinct&nbsp;</strong><span style="font-size: 18px; user-select: auto;">elements in the two arrays. Return the elements in <strong style="user-select: auto;">sorted</strong> order.</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Example 1:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input</strong>: 
+n = 5, arr1[] = {1, 2, 3, 4, 5}  
+m = 5, arr2 [] = {1, 2, 3, 6, 7}
+<strong style="user-select: auto;">Output</strong>: <br style="user-select: auto;">1 2 3 4 5 6 7
+<strong style="user-select: auto;">Explanation</strong>: <br style="user-select: auto;">Distinct elements including both the arrays are: 1 2 3 4 5 6 7.</span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Example 2:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input</strong>: 
+n = 5, arr1[] = {2, 2, 3, 4, 5}  
+m = 5, arr2[] = {1, 1, 2, 3, 4}
+<strong style="user-select: auto;">Output</strong>: <br style="user-select: auto;">1 2 3 4 5
+<strong style="user-select: auto;">Explanation</strong>: <br style="user-select: auto;">Distinct elements including both the arrays are: 1 2 3 4 5.</span></pre>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Example 3:</strong></span></p>
+<pre style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input</strong>:
+n = 5, arr1[] = {1, 1, 1, 1, 1}
+m = 5, arr2[] = {2, 2, 2, 2, 2}
+<strong style="user-select: auto;">Output</strong>: <br style="user-select: auto;">1 2
+<strong style="user-select: auto;">Explanation</strong>: <br style="user-select: auto;">Distinct elements including both the arrays are: 1 2.</span></pre>
+<p style="user-select: auto;"><strong style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Your Task:&nbsp;</span></strong><br style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">You do not need to read input or print anything. Complete the function <strong style="user-select: auto;">findUnion()&nbsp;</strong>that takes two arrays <strong style="user-select: auto;">arr1[]</strong>, <strong style="user-select: auto;">arr2[],</strong> and their size <strong style="user-select: auto;">n&nbsp;</strong>and <strong style="user-select: auto;">m&nbsp;</strong>as input parameters and returns a list containing the&nbsp;<strong style="user-select: auto;">union of the two arrays</strong>. </span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Expected Time Complexity: </strong>O(n+m).<br style="user-select: auto;"><strong style="user-select: auto;">Expected Auxiliary Space:&nbsp;</strong>O(n+m).</span></p>
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">1 &lt;= n, m&nbsp;&lt;= 10<sup style="user-select: auto;">5</sup><br style="user-select: auto;">-10<sup style="user-select: auto;">9</sup> &lt;= arr1[i], arr2[i] &lt;= 10<sup style="user-select: auto;">9</sup></span></p></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Data Structures</code>&nbsp;<code>two-pointer-algorithm</code>&nbsp;
