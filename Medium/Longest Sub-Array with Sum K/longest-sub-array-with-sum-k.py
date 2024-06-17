@@ -3,8 +3,8 @@
 class Solution:
     def lenOfLongSubarr (self, arr, n, k) : 
         #Complete the function
-        s=0
         premap={}
+        s=0
         maxl=0
         for i in range(len(arr)):
             s+=arr[i]
@@ -16,6 +16,7 @@ class Solution:
             if s not in premap:
                 premap[s]=i
         return maxl
+    
 
 
 
