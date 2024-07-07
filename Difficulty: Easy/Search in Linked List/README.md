@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-linked-list-1664434326">Search in Linked List</a></h2><h3>Difficulty Level : Difficulty: Easy</h3><hr><div class="problems_problem_content__Xm_eO" style="user-select: text;"><p style="user-select: text;"><span style="font-size: 18px; user-select: text;">Given a linked list of <strong style="user-select: text;">n</strong> nodes and a<strong style="user-select: text;"> key</strong> , the task is to check if the key&nbsp;is present in the linked list or&nbsp;not.</span></p>
+<p style="user-select: text;"><strong style="user-select: text;"><span style="font-size: 18px; user-select: text;">Example:</span></strong></p>
+<pre style="user-select: text;"><strong style="user-select: text;"><span style="font-size: 18px; user-select: text;">Input:
+</span></strong><span style="font-size: 18px; user-select: text;">n = 4
+1-&gt;2-&gt;3-&gt;4
+Key = 3
+<strong style="user-select: text;">Output:
+</strong>True
+<strong style="user-select: text;">Explanation:</strong>
+3 is present in Linked List, so the function returns true.</span></pre>
+<p style="user-select: text;"><strong style="user-select: text;"><span style="font-size: 18px; user-select: text;">Your Task:</span></strong><br style="user-select: text;"><span style="font-size: 18px; user-select: text;">Your task is to complete the given function <strong style="user-select: text;">searchKey</strong>(), which takes a <strong style="user-select: text;">head </strong>reference and <strong style="user-select: text;">key</strong> as Input&nbsp;and returns true or false boolean value by checking the key is present or not in the linked list.</span></p>
+<p style="user-select: text;"><span style="font-size: 18px; user-select: text;"><strong style="user-select: text;">Constraint:</strong><br style="user-select: text;">1 &lt;= n &lt;= 10<sup style="user-select: text;">5</sup><br style="user-select: text;">1 &lt;= key &lt;= 10<sup style="user-select: text;">5</sup></span></p>
+<p style="user-select: text;"><strong style="user-select: text;"><span style="font-size: 18px; user-select: text;">Expected Time Complexity: </span></strong><span style="font-size: 18px; user-select: text;">O(n)</span><br style="user-select: text;"><strong style="user-select: text;"><span style="font-size: 18px; user-select: text;">Expected Space Complexity: </span></strong><span style="font-size: 18px; user-select: text;">O(1)</span></p></div>
